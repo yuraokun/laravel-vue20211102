@@ -35,7 +35,7 @@
                 <p>{{ image.original_name }}</p>
                 <img
                     style="width: 100%"
-                    :src="`/storage/${image.unique_path}`"
+                    :src="`/storage${image.unique_path}`"
                 />
             </div>
         </div>
